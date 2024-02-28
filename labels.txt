@@ -1,0 +1,2 @@
+0 ekg_norm_png
+1 ekg_abnorm_png
