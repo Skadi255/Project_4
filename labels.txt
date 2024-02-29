@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 0 norm
 1 abnorm
+=======
+0 ekg_norm_png
+1 ekg_abnorm_png
+>>>>>>> 1efd2467d15ae44c6bbc67d7041f1fd963d5df65
