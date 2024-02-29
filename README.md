@@ -46,7 +46,10 @@ Abnormal EKG:
 - ekg_abnorm_png/01160_lr.png had a 79.75% confidence that the image is abnormal.
 - ekg_abnorm_png/01183_lr.png had a 99.74% confidence that the image is abnormal.
 
-### 
+### Nueral Network Model
+A Neural Network model using a perceptron algorithm was created in order to classify whether an EKG sould read as a regular, or arrhtyhmic heartbeat
+* Preprocess
+  * -	The libraries used to create this model were Pandas, StandardScaler and train_test_split from sklearn, matplotlib
 
 ### 
 
