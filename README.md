@@ -1,4 +1,4 @@
-# Project 4 – 12 Lead EKG Image 
+# Project 4 – 12 Lead EKG Image Classifier
 
 ### Group 3 (Jose Gonzalez, Shannon Williams, Nancy Ulloa, Arle Alcid) 
 
