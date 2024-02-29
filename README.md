@@ -49,7 +49,7 @@ Abnormal EKG:
 ### Nueral Network Model
 A Neural Network model using a perceptron algorithm was created in order to classify whether an EKG sould read as a regular, or arrhtyhmic heartbeat
 * Preprocess
-  * -	The libraries used to create this model were Pandas, StandardScaler and train_test_split from sklearn, matplotlib
+  * The libraries used to create this model were Pandas, StandardScaler and train_test_split from sklearn, matplotlib
 
 ### 
 
