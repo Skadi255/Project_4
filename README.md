@@ -62,9 +62,9 @@ A Neural Network model using a perceptron algorithm was created in order to clas
 
 ### Limitations
 1. Ram of personal laptops/desktops
-   - Our biggest limitation was that the data we were trying to run our image classifiers on were too large and out personal devices simply did not have enought RAM or precessing pwoer to iteratur through all the data.
+ - Our biggest limitation was that the data we were trying to run our image classifiers on were too large and out personal devices simply did not have enought RAM or precessing pwoer to iteratur through all the data.
 2. Image Sizes
-   - When we initially saved out images using the waveform basebase package in python we had to choose dimentions to save the images. In order to iterate through all of our images we had to decrease the dimensions of the images which caused the resolution of the photos to decline. We think this may have caused our model to inaccurately read the fine lines of the ekg images.
+- When we initially saved out images using the waveform basebase package in python we had to choose dimentions to save the images. In order to iterate through all of our images we had to decrease the dimensions of the images which caused the resolution of the photos to decline. We think this may have caused our model to inaccurately read the fine lines of the ekg images.
 3. Training Size
   - The goal of the SkLearn model was to create multiple classification models (in our case 12 based on the gamma and C parameters) since there was too much data to iterate through we had to decrease our training and testing sizes. This likely affected the accuracy of our model since it was training on less than 100 images.
 4. Variations of abnormal heart EKG readings 
