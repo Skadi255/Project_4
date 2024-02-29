@@ -1,0 +1,2 @@
+0 norm
+1 abnorm
