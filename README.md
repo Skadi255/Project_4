@@ -14,7 +14,7 @@ The 12 lead EKG data were held in individual .hea files for each clinic trial pa
 
 ## Image Classification Models 
 
-### Tensor Flow - Google Colab
+### Tensor Flow - Google Colab (EKG_classificator.ipynb)
 To try to make up for the computers inability to process the model, we moved a copy of the data to the computers drive to get assistance from google colab. From there we created batch sizes and structured the resolution of the image. Next, using the tensorflow keras model, we got the data and split it into eighty percent to train on (434 files) and twenty percent (86 files) to validate as the keras documentation puts it. Due to the nature of how we classified the data, the classes were set to either normal ekgs reading or abnormal ekgs readings. Then we resized the images and placed the images into the module. For the module our main focus was getting something to work, so we used 3 layers set to relu and setting intermediately to resize and flatten the images to be processed. Then ran the model on 10 epochs. This model as expected was not very accurate with an accuracy score of sixty percent and many false negatives, but it did work as the building grounds to get a better understanding of image processing learning models and it enabled us to further optimize our model.
 
 ### Scikit-Learn (skikit image classifier.ipynb)
