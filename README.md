@@ -43,7 +43,7 @@ Abnormal EKG:
 To start we loaded in the data using a for loop that iterates through all ekg images in the normal and abnormal data folders and reshaped each image to have the same dimensions.  Then we preprocessed the data into 12 batches and then scaled the images via the map() function. We then split the data into a training set (40% of the original data) and a testing set (10% of the original data) and then shuffled it by skipping batches. To build the deep learning model, we created three hidden layers using the Conv2D() function, 'relu' and 'sigmoid' activations to fit the model, and 20 epochs. Overall, we wanted to see the loss of our model decrease and the accuracy of our model increase. Based on our loss plot we see there is an overall decrease in the loss of the (training) and val_loss (testing), indicating that our model is not overfitting the data. Based on our accuracy plot, we see there is an overall increase to over 75, indicating that our model is classifies images with over 75% accuracy. In order to evaluate the model we used the keras package and found our model had 72,72% precision and 69.56% recall.  Finally, we put our model to the test by loading in test images against our model. We randomly chose 'test_images/test_abnorm/01895_lr.png' and the image was correctly classifed as a normal ekg. 
 
 
-### Neural Network Model
+### Neural Network Model (NeuralNetwork_model.ipynb)
 A Neural Network model using a perceptron algorithm was created in order to classify whether an EKG sould read as a regular, or arrhtyhmic heartbeat
 * Preprocess
    * The libraries used to create this model were Pandas, StandardScaler and train_test_split from sklearn, matplotlib
