@@ -8,8 +8,9 @@ For this project we were interested in creating an image machine learning model 
 ## Data Sources
 For this project, we pulled our data from PTB-XL, a large publically available electrocardiography dataset that was published to Physio Net. The data was collected with devices from Schiller AG over the course of a seven-year period between October 1989 to June 1996. The dataset contained over 21,799 ekg readings complimented by extensive metadata on patient demographics, likelihoods for diagnostic ECG statements, and cardiac infarction characteristics. https://physionet.org/content/ptb-xl/1.0.3/#files-panel
 
-## Data Cleaning
+## Data Cleaning (DataRetrev.ipynb)
 The 12 lead EKG data were held in individual .hea files for each clinic trial particiant.  The metadata set also included a csv file containing a summary of each ekg reading including patient demographics information, filenames corresponding to the individual .hea ekg file paths, and scp_codes referring to the classifications of cardiac activity from the ekg readings. The csv file was imported into MongoDB and exported into jupyter notebook. In order to to reduce the amount of data for our model we removed all clinic participants that had incomplete data in the csv file, and we used an indexer to only pull the first 1000 data points. Then we created a for loop simplifed that scp_codes column to label the ekg readings as either normal or abnormal. To generate the charts we created a for loop that matched the filename column to the file path of the .hea files and used the plot_wfdb() to generate the 12 lead ekg charts. An if statement was created inside the for loop the save the 12 lead ekg png files to their corresponding cardiac activity classifications folder, ekg_norm_png or ekg_abnorm_png. 
+
 
 ## Image Classification Models 
 
